@@ -1,0 +1,149 @@
+@import "compass"
+
+/*
+  使っているカラーコード
+  $black: #333
+  $gray: #f3f8f9
+  $base_color: #2f4154
+  $red: #e74c3c
+  $blue: #3498db
+  $orange: #e67e22
+  $green: #2ecc71
+  $yellow: #f1c40f
+
++global-reset
+
+=centering
+  width: 960px
+  margin: 0 auto
+  text-align: left
+
+$black: #333
+$gray: #f3f8f9
+$base_color: #2f4154
+$red: #e74c3c
+$blue: #3498db
+$orange: #e67e22
+$green: #2ecc71
+$yellow: #f1c40f
+
+body
+  font-size: 16px
+  line-height: 26px
+  text-align: center
+
+h2
+  font-size: 22px
+  margin-bottom: 0.5em
+  border-left: 10px solid $blue
+  padding: 8px 16px
+
+h3
+  font-size: 18px
+  margin-bottom: 0.5em
+
+header
+  background-color: #3498db
+  color: #fff
+  height: 80px
+
+h1
+  +centering
+  font-size: 28px
+  padding: 30px 15px 5px
+
+
+nav
+  background-color: #f2f2f2
+  ul
+    +clearfix
+    +centering
+    height: 40px
+    li
+      width: 160px
+      float: left
+      height: 50px
+      line-height: 50px
+      text-align: center
+      border-right: 1px solid $black
+      +box-sizing(border-box)
+      &:first-child
+        border-left: 1px solid $black
+      &:hover
+        background-color: #d5d5d5
+
+#container
+  +centering
+  +clearfix
+  padding: 20px 0
+
+#main
+  width: 620px
+  margin-right: 40px
+  float: left
+  > section
+    margin-bottom: 2em
+  .mv
+    width: 100%
+    height: 200px - 80px
+    padding-top: 80px
+    margin-bottom: 30px
+    background-color: $green
+    color: #fff
+    font-size: 40px
+    text-align: center
+
+#sidebar
+  width: 300px
+  float: right
+  > section
+    margin: 2em 0
+  h2
+    font-size: 18px
+  .ads
+    display: table-cell
+    width: 300px
+    height: 250px
+    background-color: $blue
+    text-align: center
+    color: #fff
+    vertical-align: middle
+  ul li
+    list-style: disc
+    margin-left: 1.5em
+    margin-bottom: 0.5em
+
+footer
+  padding: 80px 0 20px
+  text-align: center
+  background-color: $green
+  color: #fff
+
+.contact
+  .error
+    color: $red
+    font-weight: bold
+  .desc
+    margin-bottom: 1em
+  .submit
+    text-align: center
+    padding: 1em 0
+  input[type="text"]
+    width: 300px
+  table
+    width: 100%
+    th,td
+      border: 1px solid $black
+      padding: 1em
+    th
+      width: 30%
+      text-align: left
+      background-color: #f2f2f2
+    td
+      width: 70%
+  /*こっから記述どうぞ*/
+
+
+
+
+
