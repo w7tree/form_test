@@ -8,7 +8,6 @@
  * $orange: #e67e22
  * $green: #2ecc71
  * $yellow: #f1c40f */
-/* line 17, ../../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -30,57 +29,47 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 30, sass/style.sass */
 body {
   font-size: 16px;
   line-height: 26px;
   text-align: center;
 }
 
-/* line 35, sass/style.sass */
 h2 {
   font-size: 22px;
   margin-bottom: 0.5em;
@@ -88,20 +77,17 @@ h2 {
   padding: 8px 16px;
 }
 
-/* line 41, sass/style.sass */
 h3 {
   font-size: 18px;
   margin-bottom: 0.5em;
 }
 
-/* line 45, sass/style.sass */
 header {
   background-color: #3498db;
   color: white;
   height: 80px;
 }
 
-/* line 50, sass/style.sass */
 h1 {
   width: 960px;
   margin: 0 auto;
@@ -110,11 +96,9 @@ h1 {
   padding: 30px 15px 5px;
 }
 
-/* line 56, sass/style.sass */
 nav {
   background-color: #f2f2f2;
 }
-/* line 58, sass/style.sass */
 nav ul {
   overflow: hidden;
   *zoom: 1;
@@ -123,7 +107,6 @@ nav ul {
   text-align: left;
   height: 40px;
 }
-/* line 62, sass/style.sass */
 nav ul li {
   width: 160px;
   float: left;
@@ -135,16 +118,13 @@ nav ul li {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 70, sass/style.sass */
 nav ul li:first-child {
   border-left: 1px solid #333333;
 }
-/* line 72, sass/style.sass */
 nav ul li:hover {
   background-color: #d5d5d5;
 }
 
-/* line 75, sass/style.sass */
 #container {
   width: 960px;
   margin: 0 auto;
@@ -154,17 +134,14 @@ nav ul li:hover {
   padding: 20px 0;
 }
 
-/* line 80, sass/style.sass */
 #main {
   width: 620px;
   margin-right: 40px;
   float: left;
 }
-/* line 84, sass/style.sass */
 #main > section {
   margin-bottom: 2em;
 }
-/* line 86, sass/style.sass */
 #main .mv {
   width: 100%;
   height: 120px;
@@ -176,20 +153,16 @@ nav ul li:hover {
   text-align: center;
 }
 
-/* line 96, sass/style.sass */
 #sidebar {
   width: 300px;
   float: right;
 }
-/* line 99, sass/style.sass */
 #sidebar > section {
   margin: 2em 0;
 }
-/* line 101, sass/style.sass */
 #sidebar h2 {
   font-size: 18px;
 }
-/* line 103, sass/style.sass */
 #sidebar .ads {
   display: table-cell;
   width: 300px;
@@ -199,14 +172,12 @@ nav ul li:hover {
   color: white;
   vertical-align: middle;
 }
-/* line 111, sass/style.sass */
 #sidebar ul li {
   list-style: disc;
   margin-left: 1.5em;
   margin-bottom: 0.5em;
 }
 
-/* line 116, sass/style.sass */
 footer {
   padding: 80px 0 20px;
   text-align: center;
@@ -214,44 +185,63 @@ footer {
   color: white;
 }
 
-/* line 122, sass/style.sass */
-.contact {
-  /*こっから記述どうぞ */
-}
-/* line 123, sass/style.sass */
 .contact .error {
   color: #e74c3c;
   font-weight: bold;
+  display: none;
 }
-/* line 126, sass/style.sass */
 .contact .desc {
   margin-bottom: 1em;
 }
-/* line 128, sass/style.sass */
 .contact .submit {
   text-align: center;
   padding: 1em 0;
 }
-/* line 131, sass/style.sass */
 .contact input[type="text"] {
   width: 300px;
+  padding: 3px;
+  font-size: 1.2em;
 }
-/* line 133, sass/style.sass */
 .contact table {
   width: 100%;
 }
-/* line 135, sass/style.sass */
 .contact table th, .contact table td {
   border: 1px solid #333333;
   padding: 1em;
 }
-/* line 138, sass/style.sass */
 .contact table th {
   width: 30%;
   text-align: left;
   background-color: #f2f2f2;
 }
-/* line 142, sass/style.sass */
+.contact table th .small {
+  font-size: 12px;
+}
 .contact table td {
   width: 70%;
+  position: relative;
+}
+
+/*こっから記述どうぞ */
+.ok {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  display: none;
+}
+
+.require-counter {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 5px 10px;
+  background-color: #e74c3c;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#require-count {
+  font-size: 30px;
 }

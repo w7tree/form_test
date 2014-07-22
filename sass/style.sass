@@ -123,6 +123,7 @@ footer
   .error
     color: $red
     font-weight: bold
+    display: none
   .desc
     margin-bottom: 1em
   .submit
@@ -130,6 +131,8 @@ footer
     padding: 1em 0
   input[type="text"]
     width: 300px
+    padding: 3px
+    font-size: 1.2em
   table
     width: 100%
     th,td
@@ -139,9 +142,30 @@ footer
       width: 30%
       text-align: left
       background-color: #f2f2f2
+      .small
+        font-size: 12px
     td
       width: 70%
-  /*こっから記述どうぞ*/
+      position: relative
+/*こっから記述どうぞ*/
+.ok
+  position: absolute
+  top: 20px
+  right: 15px
+  display: none
+
+.require-counter
+  position: fixed
+  bottom: 20px
+  left: 20px
+  padding: 5px 10px
+  background-color: $red
+  color: #fff
+  display: table-cell
+  vertical-align: middle
+  text-align: center
+#require-count
+  font-size: 30px
 
 
 
